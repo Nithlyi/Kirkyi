@@ -226,7 +226,7 @@ class Backup(commands.Cog):
     async def backup(self, interaction: discord.Interaction):
         """Comando principal de backup"""
         # Verificar se o usuário tem permissão
-        if interaction.user.id not in [1243889655087370270, 1332644814344425593]:
+        if interaction.user.id not in [1069364135084687391, 1384859365349003264]:
             await interaction.response.send_message(
                 "Você não tem permissão para usar este comando!",
                 ephemeral=True
