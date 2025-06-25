@@ -31,7 +31,7 @@ async def on_ready():
     await bot.load_extension('src.cogs.levels')
     await bot.load_extension('src.cogs.protection')
     await bot.load_extension('src.cogs.backup')
-    await bot.load_extension('src.cogs.git')
+
     await bot.load_extension('src.cogs.embed_creator')
     await bot.load_extension('src.cogs.moderation_panel')
     await bot.load_extension('src.cogs.support')
