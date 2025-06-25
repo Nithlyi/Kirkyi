@@ -38,6 +38,7 @@ async def on_ready():
     await bot.load_extension('src.cogs.history')
     await bot.load_extension('src.cogs.interactions')
     await bot.load_extension('src.cogs.ticket_list')
+    await bot.load_extension('src.cogs.alt_checker') # Load the new alt checker cog
 
     print(f"Total Cogs Loaded: {len(bot.cogs)}")
     print(f"Total Commands Loaded: {len(bot.commands)}")
