@@ -109,7 +109,7 @@ class Support(commands.Cog):
             description=(
                 "˙ .ᶻ 𝗓 𐰁 Caso precise contatar o suporte ou fazer uma denúncia, clique no botão abaixo: .˙—"
             ),
-            color=0x420000
+            color=0xa2a6ff
         )
         embed.set_image(url="https://cdn.discordapp.com/attachments/1386861605228253216/1389353699054452947/IMG_2741.jpg?ex=68644ff6&is=6862fe76&hm=1dfccfdb8058dfd4ebd8916ecc8b5852376f5fc35079afbb5c0210e6b200479a&")
         await ctx.send(embed=embed, view=SupportView())
